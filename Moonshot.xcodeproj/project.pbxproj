@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BA71DAC12B6100B1009B89B9 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA71DAC02B6100B1009B89B9 /* CustomDivider.swift */; };
 		BA71DAC32B61013F009B89B9 /* CrewRoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA71DAC22B61013F009B89B9 /* CrewRoster.swift */; };
+		BA71DAC52B6102F4009B89B9 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA71DAC42B6102F4009B89B9 /* GridLayout.swift */; };
+		BA71DAC72B610434009B89B9 /* ListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA71DAC62B610434009B89B9 /* ListLayout.swift */; };
 		BAC44B2C2B5FC859008D93C3 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC44B2B2B5FC859008D93C3 /* MoonshotApp.swift */; };
 		BAC44B2E2B5FC859008D93C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC44B2D2B5FC859008D93C3 /* ContentView.swift */; };
 		BAC44B302B5FC85B008D93C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC44B2F2B5FC85B008D93C3 /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 /* Begin PBXFileReference section */
 		BA71DAC02B6100B1009B89B9 /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
 		BA71DAC22B61013F009B89B9 /* CrewRoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewRoster.swift; sourceTree = "<group>"; };
+		BA71DAC42B6102F4009B89B9 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		BA71DAC62B610434009B89B9 /* ListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLayout.swift; sourceTree = "<group>"; };
 		BAC44B282B5FC859008D93C3 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC44B2B2B5FC859008D93C3 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		BAC44B2D2B5FC859008D93C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 			children = (
 				BAC44B2B2B5FC859008D93C3 /* MoonshotApp.swift */,
 				BAC44B2D2B5FC859008D93C3 /* ContentView.swift */,
+				BA71DAC42B6102F4009B89B9 /* GridLayout.swift */,
+				BA71DAC62B610434009B89B9 /* ListLayout.swift */,
 				BAC44B452B600D6D008D93C3 /* MissionView.swift */,
 				BA71DAC02B6100B1009B89B9 /* CustomDivider.swift */,
 				BAC44B472B6017AC008D93C3 /* AstronautView.swift */,
@@ -178,7 +184,9 @@
 				BAC44B2C2B5FC859008D93C3 /* MoonshotApp.swift in Sources */,
 				BAC44B422B5FCDC8008D93C3 /* Mission.swift in Sources */,
 				BAC44B402B5FC96B008D93C3 /* Bundle-Decodable.swift in Sources */,
+				BA71DAC72B610434009B89B9 /* ListLayout.swift in Sources */,
 				BA71DAC12B6100B1009B89B9 /* CustomDivider.swift in Sources */,
+				BA71DAC52B6102F4009B89B9 /* GridLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
